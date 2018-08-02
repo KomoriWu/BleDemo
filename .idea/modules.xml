@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BleDemo.iml" filepath="$PROJECT_DIR$/BleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BleDemo.iml" filepath="$PROJECT_DIR$/.idea/BleDemo.iml" />
+      <module fileurl="file://E:\workspace\android\BleDemo\BleDemo.iml" filepath="E:\workspace\android\BleDemo\BleDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

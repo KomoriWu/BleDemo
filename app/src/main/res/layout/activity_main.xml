@@ -9,7 +9,21 @@
         android:id="@+id/btn_open"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="开门" />
+        android:text="mac地址开门" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Scan开门" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="清除" />
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -19,10 +33,17 @@
         <TextView
             android:id="@+id/tv"
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:textSize="16sp" />
     </android.support.v4.widget.NestedScrollView>
 
-
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
